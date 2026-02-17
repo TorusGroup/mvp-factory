@@ -76,5 +76,5 @@ app.post('/execute', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(\`AIOS Bridge listening on port \${port}\`);
+  console.log('AIOS Bridge listening on port ' + port);
 });
