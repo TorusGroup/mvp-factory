@@ -1,16 +1,12 @@
 {
-  "name": "squad-alpha",
+  "name": "mvp-factory",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AIOS Command Center Bridge",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "aios-core": "^4.2.12",
-    "yaml": "^2.8.2"
+    "express": "^4.18.2"
   }
 }
